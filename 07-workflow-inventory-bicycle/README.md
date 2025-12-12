@@ -76,8 +76,6 @@ Access Token을 발급 받기 위해 인가토큰을 생성
 
 <img width="480" height="280" alt="inventory-bicycle-summary" src="https://github.com/user-attachments/assets/c7e082c1-b5cc-4804-b041-eba033af0e0a" />
 
-<img width="1620" height="751" alt="n8n-inventory-bicycle-workflow" src="https://github.com/user-attachments/assets/f3b67de6-b223-48dd-94b2-576712c262b6" />  
-
 
 ### 📊 구조 및 데이터 흐름
 ```
@@ -108,9 +106,9 @@ Content-Type: application/x-www-form-urlencoded
 또는 토큰 발행 실행시 같이 생성되는 REFRESH 토큰(6시간 지속) 사용.
 
 ### 예상 사용자/ 부서
-   - Slack을 이미 도입했거나 도입하려는 조직
-   - 인사팀(HR): 근태 내역을 취합하고 급여 정산, 휴가 관리에 활용합니다.
-   - 각 팀 리더/ 매니저: 팀원의 출퇴근 현황을 파악하고 리소스를 관리합니다.
+   - 특정 시간대에 대여소(지점) 상황을 빠르게 파악해야 하는 운영팀 실무자.
+   - 재고·발주를 모니터링하는 기업/부서/자영업자.
+   - 특히, 시간대별 수요가 달라지는 업종(카페, 편의점, 배달 전문점 등)
 
 📌 한계와 대안
 - **한계**: 카카오톡 메시지 템플릿 구조상의 제한으로 요약 전문 표시 불가
